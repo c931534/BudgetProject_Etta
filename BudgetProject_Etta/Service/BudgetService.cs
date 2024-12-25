@@ -1,9 +1,12 @@
-﻿namespace BudgetProject_Etta.Service;
+﻿using BudgetProject_Etta.Repository;
+
+namespace BudgetProject_Etta.Service;
 
 public class BudgetService
 {
-    public decimal GetBudget(DateTime startDate, DateTime endDate)
+   
+    public decimal Query(DateTime startDate, DateTime endDate)
     {
-        return 100;
+        return -1;
     }
 }

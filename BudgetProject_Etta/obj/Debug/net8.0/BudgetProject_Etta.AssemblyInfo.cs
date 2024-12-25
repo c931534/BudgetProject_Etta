@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BudgetProject_Etta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd1603adcb2515b56079411d19cb5de7f2e3bfa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BudgetProject_Etta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BudgetProject_Etta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

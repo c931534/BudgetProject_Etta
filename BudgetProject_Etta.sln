@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetProject_Etta", "BudgetProject_Etta\BudgetProject_Etta.csproj", "{F51DD06F-3767-4DDA-9435-B376EFB1F0A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetProject_Etta.Tests", "BudgetProject_Etta.Tests\BudgetProject_Etta.Tests.csproj", "{D6B5690C-CB28-4041-8312-E3A0EA4CE94F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F51DD06F-3767-4DDA-9435-B376EFB1F0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51DD06F-3767-4DDA-9435-B376EFB1F0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51DD06F-3767-4DDA-9435-B376EFB1F0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B5690C-CB28-4041-8312-E3A0EA4CE94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B5690C-CB28-4041-8312-E3A0EA4CE94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B5690C-CB28-4041-8312-E3A0EA4CE94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B5690C-CB28-4041-8312-E3A0EA4CE94F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
