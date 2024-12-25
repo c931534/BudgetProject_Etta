@@ -1,0 +1,6 @@
+@BudgetProject_Etta_HostAddress = http://localhost:5270
+
+GET {{BudgetProject_Etta_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
