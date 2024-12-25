@@ -7,14 +7,12 @@ namespace BudgetProject_Etta.Tests.Service;
 [TestFixture]
 public class BudgetServiceTest
 {
-
+    private BudgetService _budgetService = new BudgetService();
+    
     [Test]
     public void InvaildDateRange_should_be_0()
     {
-        var startDate = new DateTime(2024, 12, 01);
-        var endDate = new DateTime(2024, 11, 02);
-        var service = new BudgetService();
-        var result = service.Query(startDate, endDate);
+        var result = _budgetService.Query(new DateTime(2024, 12, 01), new DateTime(2024, 11, 02));
         Assert.That(result, Is.EqualTo(0));
     }
 }
